@@ -57,6 +57,7 @@ extra:
   recipe-maintainers:
     - conda-forge/r
     - coatless
+    - steveculpepper
 
 # Package: edmdata
 # Title: Data Sets for Psychometric Modeling
