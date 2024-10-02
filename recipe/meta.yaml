@@ -1,4 +1,4 @@
-{% set version = "1.2.0" %}
+{% set version = "1.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/edmdata_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/edmdata/edmdata_{{ version }}.tar.gz
-  sha256: e5e4fe4fb629e23e2f4e1e5fcde50fa6576cd593f091c5d3fa5210616dae5110
+  sha256: 5c3bfdb78e216653acf55ac94537e0468f02bb03b739c3b34679a9e2464501a1
 
 build:
-  number: 3
+  number: 0
   noarch: generic
 
   rpaths:
